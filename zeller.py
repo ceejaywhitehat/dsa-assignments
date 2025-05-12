@@ -36,8 +36,6 @@ class DateCalculator:
         days = ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
         return days[h]
 
-
-# Example usage
 calc = DateCalculator()
 calc.set_details()
 print(f"The day of the week is: {calc.calculate_day_of_week()}")
